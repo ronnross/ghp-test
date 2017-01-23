@@ -11,12 +11,12 @@
 </head>
 <body>
   <h1 id="title">Some Title</h1>
-  <button type="button" onclick="dosomething">Fire</button>
+  <button type="button" onclick="dosomething()">Fire</button>
 
   <script>
     function dosomething() {
       console.log('in here')
-      var el =document.getElementById('title')
+      var el = document.getElementById('title')
       el.innerHTML = "New Title"
     }
   </script>
