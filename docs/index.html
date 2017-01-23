@@ -3,8 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <title>Working</title>
+  <style>
+    body {
+      background: #d7d7d7;
+    }
+  </style>
 </head>
 <body>
-  Working
+  <h1 id="title">Some Title</h1>
+  <button type="button" onclick="dosomething">Fire</button>
+
+  <script>
+    function dosomething() {
+      var el =document.getElementById('title')
+      el.innerHTML = "New Title"
+    }
+  </script>
 </body>
 </html>
